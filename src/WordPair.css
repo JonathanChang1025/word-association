@@ -1,0 +1,21 @@
+
+.horizontal-spacer {
+  margin-right: 500px;
+}
+
+.container {
+  display: flex;
+}
+
+.default-font {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.highlight-font {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+}
