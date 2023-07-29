@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/word-association/static/css/main.4418efe2.css",
+    "main.js": "/word-association/static/js/main.47a10908.js",
+    "static/js/787.8d399310.chunk.js": "/word-association/static/js/787.8d399310.chunk.js",
+    "index.html": "/word-association/index.html",
+    "main.4418efe2.css.map": "/word-association/static/css/main.4418efe2.css.map",
+    "main.47a10908.js.map": "/word-association/static/js/main.47a10908.js.map",
+    "787.8d399310.chunk.js.map": "/word-association/static/js/787.8d399310.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4418efe2.css",
+    "static/js/main.47a10908.js"
+  ]
+}
