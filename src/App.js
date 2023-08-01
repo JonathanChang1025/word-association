@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useReducer, useEffect } from 'react';
+import cloneDeep from 'lodash/cloneDeep';
 import Confetti from 'react-confetti';
 import MainMenu from './MainMenu';
 import GameBoard from './GameBoard';
@@ -73,7 +74,7 @@ const gameStateReducer = (state, action) => {
         showConfetti: false,
       };
     case 'GAME_RESET':
-      return DEFAULT_GAME_STATE;
+      return {...cloneDeep(DEFAULT_GAME_STATE)};
     default:
       throw new Error();
   }
@@ -82,7 +83,7 @@ const gameStateReducer = (state, action) => {
 const App = () => {
   const [gameState, dispatchGameState] = useReducer(
     gameStateReducer,
-    DEFAULT_GAME_STATE,
+    cloneDeep(DEFAULT_GAME_STATE),
   );
 
   useEffect(() => {
